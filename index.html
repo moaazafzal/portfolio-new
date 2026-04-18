@@ -3,22 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Moaaz Afzal | Creative Developer Portfolio</title>
+    <title>Moaaz Afzal | Launch-Style Portfolio</title>
     <meta
       name="description"
-      content="Creative developer portfolio for Moaaz Afzal. Premium websites, launch-ready interfaces, and bold digital experiences."
+      content="Moaaz Afzal builds launch-ready portfolio sites, product pages, and cinematic front-end experiences with a bold, game-inspired visual direction."
     />
-    <meta property="og:title" content="Moaaz Afzal | Creative Developer Portfolio" />
+    <meta property="og:title" content="Moaaz Afzal | Launch-Style Portfolio" />
     <meta
       property="og:description"
-      content="Premium websites, launch-ready interfaces, and bold digital experiences."
+      content="Launch-ready portfolio sites, product pages, and cinematic front-end experiences."
     />
     <meta property="og:type" content="website" />
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700;800&family=Syne:wght@500;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Oxanium:wght@500;600;700;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
@@ -26,11 +26,12 @@
   </head>
   <body>
     <div class="backdrop" aria-hidden="true">
-      <span class="orb orb-a"></span>
-      <span class="orb orb-b"></span>
-      <span class="orb orb-c"></span>
-      <span class="grid-overlay"></span>
-      <span class="noise-overlay"></span>
+      <span class="backdrop-glow glow-a"></span>
+      <span class="backdrop-glow glow-b"></span>
+      <span class="backdrop-glow glow-c"></span>
+      <span class="backdrop-grid"></span>
+      <span class="backdrop-rings"></span>
+      <span class="backdrop-noise"></span>
     </div>
 
     <div class="scroll-progress" aria-hidden="true">
@@ -42,7 +43,7 @@
         <span class="brand-mark">MA</span>
         <span class="brand-copy">
           <strong>Moaaz Afzal</strong>
-          <small>Creative Developer</small>
+          <small>Launch-Style Web Design</small>
         </span>
       </a>
 
@@ -56,9 +57,9 @@
       </button>
 
       <nav class="site-nav" id="site-nav">
-        <a href="#about">About</a>
-        <a href="#work">Work</a>
-        <a href="#services">Services</a>
+        <a href="#showcase">Showcase</a>
+        <a href="#paths">Build Paths</a>
+        <a href="#lab">Launch Lab</a>
         <a href="#process">Process</a>
         <a href="#contact" class="nav-pill">Contact</a>
       </nav>
@@ -66,333 +67,332 @@
 
     <main>
       <section class="section hero" id="top">
-        <div class="hero-copy reveal">
-          <p class="eyebrow">Remote-first portfolio site and digital design showcase</p>
+        <div class="hero-intro reveal">
+          <p class="eyebrow">Interactive portfolio / front-end systems / launch pages</p>
+          <div class="hero-tags">
+            <span>Portfolio Builds</span>
+            <span>Motion-Driven Interfaces</span>
+            <span>GitHub-Ready Delivery</span>
+          </div>
           <h1>
-            Websites with
-            <span>editorial style</span>
-            and product-level precision.
+            Building websites
+            <span>with the energy</span>
+            of a game launch.
           </h1>
           <p class="lead">
-            I build premium digital experiences that balance mood, motion, clarity,
-            and performance, from founder launch pages to polished portfolio systems.
+            I design and build bold digital experiences for founders, creatives, and
+            teams that want their site to feel immersive on first scroll and clean
+            in production.
           </p>
-
           <div class="hero-actions">
-            <a class="button button-primary" href="#work">View signature builds</a>
-            <a class="button button-secondary" href="#contact">Start a project</a>
+            <a class="button button-primary" href="#showcase">Enter showcase</a>
+            <a class="button button-secondary" href="#contact">Start a build</a>
           </div>
-
-          <ul class="hero-points">
-            <li>Brand-forward visual direction</li>
-            <li>Responsive front-end execution</li>
-            <li>Conversion-aware storytelling</li>
-          </ul>
         </div>
 
-        <div class="hero-visual reveal">
-          <article class="showcase-card tilt-card">
-            <div class="showcase-header">
-              <span class="pill">Currently available</span>
-              <span class="status-indicator">Building for web, launch, and portfolio brands</span>
-            </div>
+        <div class="hero-orbit">
+          <article class="float-card float-card-left reveal" data-tilt>
+            <span class="micro-label">Visual Mode</span>
+            <h2>Cinematic art direction with sharper hierarchy.</h2>
+            <p>Dark depth, warm glow, bold type, and surfaces that feel alive.</p>
+          </article>
 
-            <div class="showcase-body">
-              <p class="showcase-label">Creative direction</p>
-              <h2>Design that sells the feeling before the copy finishes loading.</h2>
-              <p>
-                Clear hierarchy, premium motion, and a visual system that feels
-                deliberate at every breakpoint.
-              </p>
+          <article class="hero-stage reveal" data-tilt>
+            <span class="stage-chip stage-chip-a">Launch-ready structure</span>
+            <span class="stage-chip stage-chip-b">Responsive at every breakpoint</span>
+            <div class="stage-screen">
+              <img
+                class="stage-art"
+                src="assets/visual-command.svg"
+                alt="Abstract dashboard-style hero illustration"
+              />
             </div>
-
-            <div class="signal-grid">
+            <div class="stage-track">
               <div>
-                <span>Focus</span>
-                <strong>Launch pages</strong>
+                <span>Lane 01</span>
+                <strong>Hero systems</strong>
               </div>
               <div>
-                <span>Style</span>
-                <strong>Bold + clean</strong>
+                <span>Lane 02</span>
+                <strong>Showcase cards</strong>
               </div>
               <div>
-                <span>Stack</span>
-                <strong>Static + fast</strong>
-              </div>
-              <div>
-                <span>Outcome</span>
-                <strong>Ready for GitHub Pages</strong>
+                <span>Lane 03</span>
+                <strong>Launch CTA flow</strong>
               </div>
             </div>
           </article>
 
-          <div class="floating-panel floating-panel-a">
-            <span class="floating-label">Approach</span>
-            <strong>Art direction + front-end build</strong>
-          </div>
+          <article class="float-card float-card-right reveal" data-tilt>
+            <span class="micro-label">Build Priority</span>
+            <h2>Memorable on day one, editable on day thirty.</h2>
+            <p>Fast static delivery, clear sections, and no fragile setup required.</p>
+          </article>
+        </div>
 
-          <div class="floating-panel floating-panel-b">
-            <span class="floating-label">Detail</span>
-            <strong>Motion with restraint, not noise</strong>
-          </div>
-
-          <div class="floating-panel floating-panel-c">
-            <span class="floating-label">Priority</span>
-            <strong>Fast load, sharp read, memorable feel</strong>
-          </div>
+        <div class="stat-ribbon reveal">
+          <article class="stat-card">
+            <strong>01</strong>
+            <span>Single-repo structure built to ship cleanly.</span>
+          </article>
+          <article class="stat-card">
+            <strong>03</strong>
+            <span>Core lanes: portfolio, launch page, and interactive showcase.</span>
+          </article>
+          <article class="stat-card">
+            <strong>100%</strong>
+            <span>Responsive layout with mobile considered from the start.</span>
+          </article>
+          <article class="stat-card">
+            <strong>0</strong>
+            <span>Template feel. The goal is intent, not filler.</span>
+          </article>
         </div>
       </section>
 
-      <section class="section marquee-section reveal" aria-label="Portfolio disciplines">
-        <div class="marquee">
-          <div class="marquee-track">
-            <span>Creative Direction</span>
-            <span>Portfolio Design</span>
-            <span>Landing Pages</span>
-            <span>Responsive Front-End</span>
-            <span>Motion Systems</span>
-            <span>GitHub Pages Deployment</span>
-            <span>Creative Direction</span>
-            <span>Portfolio Design</span>
-            <span>Landing Pages</span>
-            <span>Responsive Front-End</span>
-            <span>Motion Systems</span>
-            <span>GitHub Pages Deployment</span>
-          </div>
+      <section class="section chip-section reveal" aria-label="Services and categories">
+        <div class="chip-cloud">
+          <span>Portfolio Sites</span>
+          <span>Launch Pages</span>
+          <span>Brand Worlds</span>
+          <span>Interactive UI</span>
+          <span>Motion Passes</span>
+          <span>Case Study Pages</span>
+          <span>Responsive Systems</span>
+          <span>GitHub Pages Delivery</span>
         </div>
       </section>
 
-      <section class="section split-section" id="about">
+      <section class="section showcase" id="showcase">
         <div class="section-heading reveal">
-          <p class="eyebrow">About</p>
-          <h2>Creative instinct backed by clean front-end discipline.</h2>
+          <p class="eyebrow">Showcase</p>
+          <h2>Three signature build directions shaped like premium product worlds.</h2>
+          <p>
+            Inspired by gaming launch pages, but aimed at personal brands, products,
+            and ambitious creative teams.
+          </p>
         </div>
 
-        <div class="split-grid">
-          <article class="panel reveal">
-            <p class="panel-copy">
-              I am Moaaz Afzal, a creative developer focused on websites that feel
-              premium without becoming fragile. The goal is simple: make the first
-              scroll look strong, make the structure easy to trust, and make the
-              experience feel intentional on every screen size.
-            </p>
-            <p class="panel-copy">
-              This portfolio direction mixes editorial typography, atmospheric color,
-              and practical engineering so the result is not just attractive, but
-              also easy to deploy, maintain, and evolve.
-            </p>
+        <div class="showcase-grid">
+          <article class="showcase-card reveal">
+            <div class="showcase-media">
+              <img
+                src="assets/project-atlas.svg"
+                alt="Abstract product site preview"
+              />
+            </div>
+            <div class="showcase-copy">
+              <p class="card-kicker">Neon Atlas</p>
+              <h3>Launch page energy for a product that needs instant momentum.</h3>
+              <p>
+                A sharp hero, strong proof sections, and a cleaner conversion path
+                for founders shipping something new.
+              </p>
+              <div class="card-tags">
+                <span>Product Story</span>
+                <span>Motion UI</span>
+                <span>Fast Deploy</span>
+              </div>
+            </div>
           </article>
 
-          <aside class="panel panel-compact reveal">
-            <h3>Working style</h3>
-            <ul class="feature-list">
-              <li>Sharp visual hierarchy with strong above-the-fold storytelling</li>
-              <li>Component-minded layouts that stay clean as content grows</li>
-              <li>Motion that supports attention instead of distracting from it</li>
-              <li>Static architecture that works perfectly for GitHub Pages</li>
+          <article class="showcase-card reveal">
+            <div class="showcase-media">
+              <img
+                src="assets/project-arena.svg"
+                alt="Abstract creative portfolio preview"
+              />
+            </div>
+            <div class="showcase-copy">
+              <p class="card-kicker">Arena Signal</p>
+              <h3>Portfolio design that feels bigger than a standard personal site.</h3>
+              <p>
+                Built for creatives who want atmosphere, stronger contrast, and a
+                visual identity that does not collapse on mobile.
+              </p>
+              <div class="card-tags">
+                <span>Creative Portfolio</span>
+                <span>Bold Typography</span>
+                <span>Section Pacing</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="showcase-card reveal">
+            <div class="showcase-media">
+              <img
+                src="assets/project-boss.svg"
+                alt="Abstract case-study dashboard preview"
+              />
+            </div>
+            <div class="showcase-copy">
+              <p class="card-kicker">Boss Level OS</p>
+              <h3>Case-study and dashboard hybrids for teams that need polish and clarity.</h3>
+              <p>
+                A direction for product teams, agencies, and studios that want richer
+                storytelling without sacrificing structure.
+              </p>
+              <div class="card-tags">
+                <span>Case Study</span>
+                <span>System UI</span>
+                <span>Long Scroll</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section build-paths" id="paths">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Build Paths</p>
+          <h2>Different clients need different levels of spectacle, structure, and speed.</h2>
+        </div>
+
+        <div class="path-grid">
+          <article class="path-card reveal">
+            <div class="path-icon"></div>
+            <h3>Founders</h3>
+            <p>
+              For launches that need a category-defining first impression, a clear
+              story, and pages that move people toward action.
+            </p>
+            <ul>
+              <li>Hero narrative and positioning</li>
+              <li>Feature sections with visual contrast</li>
+              <li>Fast shipping without framework overhead</li>
             </ul>
-          </aside>
-        </div>
+          </article>
 
-        <div class="toolkit reveal">
-          <span>HTML</span>
-          <span>CSS</span>
-          <span>JavaScript</span>
-          <span>Responsive Design</span>
-          <span>Art Direction</span>
-          <span>Interaction Design</span>
-          <span>GitHub Pages</span>
-          <span>Performance-First Delivery</span>
+          <article class="path-card reveal">
+            <div class="path-icon"></div>
+            <h3>Creatives</h3>
+            <p>
+              For portfolios that should feel like an experience rather than a list
+              of blocks on a generic theme.
+            </p>
+            <ul>
+              <li>Art-directed layouts with stronger mood</li>
+              <li>Responsive image and section rhythm</li>
+              <li>Contact flow that stays easy to act on</li>
+            </ul>
+          </article>
+
+          <article class="path-card reveal">
+            <div class="path-icon"></div>
+            <h3>Teams</h3>
+            <p>
+              For agencies and product teams that want a clearer system, richer
+              storytelling, and a handoff that does not become a maintenance problem.
+            </p>
+            <ul>
+              <li>Reusable sections and scalable content layout</li>
+              <li>Motion that supports the message</li>
+              <li>Deployment-ready delivery on GitHub</li>
+            </ul>
+          </article>
         </div>
       </section>
 
-      <section class="section" id="work">
-        <div class="section-heading reveal">
-          <p class="eyebrow">Signature Builds</p>
-          <h2>Three portfolio directions that show range without losing cohesion.</h2>
-        </div>
+      <section class="section lab-section" id="lab">
+        <div class="lab-shell reveal">
+          <div class="lab-copy">
+            <p class="eyebrow">Launch Lab</p>
+            <h2>Strong sites are not just decorated. They are tuned.</h2>
+            <p>
+              The visual layer matters, but the page also needs pacing, readable
+              contrast, responsive integrity, and a structure that can grow without
+              breaking its own mood.
+            </p>
 
-        <div class="projects-grid">
-          <article class="project-card reveal">
-            <div class="project-surface surface-saas">
-              <span class="surface-chip">SaaS Launch</span>
-              <div class="surface-window">
-                <span></span>
-                <span></span>
-                <span></span>
+            <div class="lab-metrics">
+              <div class="lab-metric">
+                <span>Story architecture</span>
+                <div class="meter-bar"><span style="width: 92%"></span></div>
+              </div>
+              <div class="lab-metric">
+                <span>Visual intensity</span>
+                <div class="meter-bar"><span style="width: 88%"></span></div>
+              </div>
+              <div class="lab-metric">
+                <span>Responsive discipline</span>
+                <div class="meter-bar"><span style="width: 96%"></span></div>
+              </div>
+              <div class="lab-metric">
+                <span>Launch readiness</span>
+                <div class="meter-bar"><span style="width: 94%"></span></div>
               </div>
             </div>
-            <div class="project-content">
-              <p class="project-type">Northstar Pulse</p>
-              <h3>Product storytelling for a high-trust software launch.</h3>
-              <p>
-                Structured for founders who need a strong story, a clean demo path,
-                and sections that can evolve as the product matures.
-              </p>
-              <ul class="project-points">
-                <li>Hero copy that frames the category fast</li>
-                <li>Modular section system for features, proof, and CTA flow</li>
-                <li>Visual language that feels technical without feeling cold</li>
-              </ul>
-              <a href="#contact" class="text-link">Build something like this</a>
-            </div>
-          </article>
+          </div>
 
-          <article class="project-card reveal">
-            <div class="project-surface surface-editorial">
-              <span class="surface-chip">Creative Portfolio</span>
-              <div class="surface-arc"></div>
+          <div class="lab-panel" data-tilt>
+            <div class="lab-panel-top">
+              <span>Command Panel</span>
+              <strong>How the build gets tuned</strong>
             </div>
-            <div class="project-content">
-              <p class="project-type">Aqua Atelier</p>
-              <h3>Image-led portfolio design with booking-friendly clarity.</h3>
-              <p>
-                A direction for photographers, designers, and visual creatives who
-                want a site that feels elevated without hiding the practical next step.
-              </p>
-              <ul class="project-points">
-                <li>Editorial typography with controlled asymmetry</li>
-                <li>Simple contact path that keeps momentum high</li>
-                <li>Mobile layouts that still feel premium, not compressed</li>
-              </ul>
-              <a href="#contact" class="text-link">Use this visual language</a>
+            <div class="lab-panel-grid">
+              <article>
+                <span>01</span>
+                <h3>Frame the world</h3>
+                <p>Lock the tone, contrast, and visual promise before sections pile up.</p>
+              </article>
+              <article>
+                <span>02</span>
+                <h3>Build the surfaces</h3>
+                <p>Turn that direction into cards, layouts, and movement that feels cohesive.</p>
+              </article>
+              <article>
+                <span>03</span>
+                <h3>Tune the motion</h3>
+                <p>Add reveals, hover depth, and transitions that support attention.</p>
+              </article>
+              <article>
+                <span>04</span>
+                <h3>Ship the system</h3>
+                <p>Keep the final result fast, editable, and easy to deploy.</p>
+              </article>
             </div>
-          </article>
-
-          <article class="project-card reveal">
-            <div class="project-surface surface-brand">
-              <span class="surface-chip">Brand Landing Page</span>
-              <div class="surface-stripes">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-            </div>
-            <div class="project-content">
-              <p class="project-type">Current Field</p>
-              <h3>Brand-rich product marketing with a sharper conversion path.</h3>
-              <p>
-                Built for premium consumer concepts that need atmosphere, narrative,
-                and a cleaner bridge between brand and action.
-              </p>
-              <ul class="project-points">
-                <li>Distinct color system and premium material feel</li>
-                <li>Readable long-scroll pacing with section contrast</li>
-                <li>Flexible enough for launches, updates, and seasonal campaigns</li>
-              </ul>
-              <a href="#contact" class="text-link">Bring this energy to your site</a>
-            </div>
-          </article>
+          </div>
         </div>
       </section>
 
-      <section class="section" id="services">
-        <div class="section-heading reveal">
-          <p class="eyebrow">Services</p>
-          <h2>Built for founders, creatives, and teams who need the site to feel finished.</h2>
-        </div>
-
-        <div class="services-grid">
-          <article class="service-card reveal">
-            <span class="service-index">01</span>
-            <h3>Creative Direction</h3>
-            <p>
-              Visual positioning, mood, layout logic, and a clear aesthetic system
-              before the page starts filling up with components.
-            </p>
-          </article>
-
-          <article class="service-card reveal">
-            <span class="service-index">02</span>
-            <h3>Website Design</h3>
-            <p>
-              Premium one-page or multi-section experiences with clear hierarchy,
-              strong pacing, and responsive behavior built in from the start.
-            </p>
-          </article>
-
-          <article class="service-card reveal">
-            <span class="service-index">03</span>
-            <h3>Front-End Build</h3>
-            <p>
-              Clean static implementation using HTML, CSS, and JavaScript for fast
-              shipping, easy hosting, and minimal maintenance overhead.
-            </p>
-          </article>
-
-          <article class="service-card reveal">
-            <span class="service-index">04</span>
-            <h3>Launch Support</h3>
-            <p>
-              GitHub-ready structure, deployment setup, and practical handoff so the
-              site does not stall between design and delivery.
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section" id="process">
+      <section class="section process-section" id="process">
         <div class="section-heading reveal">
           <p class="eyebrow">Process</p>
-          <h2>A lean workflow that keeps design quality high and execution tight.</h2>
+          <h2>A production flow built for visual ambition without chaos.</h2>
         </div>
 
-        <div class="timeline">
-          <article class="timeline-step reveal">
-            <span class="timeline-number">01</span>
-            <div>
-              <h3>Frame the story</h3>
-              <p>
-                Decide what the visitor should feel, understand, and do in the first
-                sixty seconds of the experience.
-              </p>
-            </div>
+        <div class="process-grid">
+          <article class="process-card reveal">
+            <span>01</span>
+            <h3>Signal</h3>
+            <p>Clarify what the site needs to communicate in its first few seconds.</p>
           </article>
-
-          <article class="timeline-step reveal">
-            <span class="timeline-number">02</span>
-            <div>
-              <h3>Shape the interface</h3>
-              <p>
-                Build a layout system with intentional contrast, readable rhythm,
-                and components that can scale with the content.
-              </p>
-            </div>
+          <article class="process-card reveal">
+            <span>02</span>
+            <h3>Worldbuilding</h3>
+            <p>Shape the interface, color logic, and content rhythm around that signal.</p>
           </article>
-
-          <article class="timeline-step reveal">
-            <span class="timeline-number">03</span>
-            <div>
-              <h3>Bring it to life</h3>
-              <p>
-                Add motion, hover behavior, and responsive polish so the site feels
-                refined instead of static.
-              </p>
-            </div>
+          <article class="process-card reveal">
+            <span>03</span>
+            <h3>Systems</h3>
+            <p>Translate the direction into a responsive front-end that still feels premium.</p>
           </article>
-
-          <article class="timeline-step reveal">
-            <span class="timeline-number">04</span>
-            <div>
-              <h3>Launch cleanly</h3>
-              <p>
-                Ship the final site with a structure that works on GitHub Pages and
-                stays easy to edit after launch.
-              </p>
-            </div>
+          <article class="process-card reveal">
+            <span>04</span>
+            <h3>Launch</h3>
+            <p>Deliver the final build with clean structure, deploy support, and no dead weight.</p>
           </article>
         </div>
       </section>
 
       <section class="section contact-section" id="contact">
-        <div class="contact-panel reveal">
+        <div class="contact-shell reveal">
           <div class="contact-copy">
             <p class="eyebrow">Contact</p>
-            <h2>Need a portfolio, launch page, or cleaner visual system?</h2>
+            <h2>Ready to launch a site that actually feels alive?</h2>
             <p>
-              If the goal is a website that feels premium, readable, and ready to
-              ship, start the conversation here.
+              If you want something darker, sharper, and more cinematic than a
+              standard portfolio template, start here.
             </p>
           </div>
 
@@ -403,7 +403,12 @@
             <button class="button button-secondary" id="copy-email" type="button">
               Copy email
             </button>
-            <a class="text-link contact-link" href="https://github.com/moaazafzal" target="_blank" rel="noreferrer">
+            <a
+              class="contact-link"
+              href="https://github.com/moaazafzal"
+              target="_blank"
+              rel="noreferrer"
+            >
               github.com/moaazafzal
             </a>
           </div>
@@ -412,7 +417,13 @@
     </main>
 
     <footer class="site-footer">
-      <p>Designed and built for a fast GitHub Pages launch.</p>
+      <p>Designed as a static site with a game-launch visual direction.</p>
+      <nav>
+        <a href="#showcase">Showcase</a>
+        <a href="#paths">Build Paths</a>
+        <a href="#lab">Launch Lab</a>
+        <a href="#contact">Contact</a>
+      </nav>
       <p>&copy; <span id="year"></span> Moaaz Afzal</p>
     </footer>
   </body>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" role="img" aria-labelledby="title">
+  <title>Abstract case study dashboard preview</title>
+  <defs>
+    <linearGradient id="bg3" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#12161f"/>
+      <stop offset="1" stop-color="#090b11"/>
+    </linearGradient>
+    <linearGradient id="a3" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ff8a1d"/>
+      <stop offset="1" stop-color="#ffd16a"/>
+    </linearGradient>
+    <linearGradient id="c3" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#52e7d8"/>
+      <stop offset="1" stop-color="#a2fff7"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="560" rx="34" fill="url(#bg3)"/>
+  <rect x="44" y="44" width="712" height="472" rx="28" fill="#0d1118" stroke="rgba(255,255,255,.08)"/>
+  <rect x="78" y="82" width="644" height="140" rx="24" fill="#121823"/>
+  <rect x="110" y="116" width="204" height="16" rx="8" fill="#263042"/>
+  <rect x="110" y="148" width="152" height="14" rx="7" fill="#1e2734"/>
+  <rect x="422" y="108" width="256" height="92" rx="22" fill="#0a0d13"/>
+  <path d="M446 178 C494 120 548 114 594 144 C618 160 640 164 654 160" fill="none" stroke="url(#a3)" stroke-width="10" stroke-linecap="round"/>
+  <rect x="78" y="254" width="214" height="226" rx="24" fill="#121823"/>
+  <rect x="324" y="254" width="398" height="226" rx="24" fill="#121823"/>
+  <rect x="108" y="286" width="152" height="16" rx="8" fill="url(#a3)"/>
+  <rect x="108" y="318" width="110" height="110" rx="24" fill="#0a0d13" stroke="url(#c3)" stroke-width="8"/>
+  <rect x="358" y="286" width="140" height="16" rx="8" fill="#263042"/>
+  <rect x="358" y="322" width="330" height="126" rx="22" fill="#0a0d13"/>
+  <rect x="386" y="352" width="70" height="70" rx="18" fill="url(#a3)"/>
+  <rect x="476" y="352" width="70" height="70" rx="18" fill="#242d3b"/>
+  <rect x="566" y="352" width="94" height="70" rx="18" fill="url(#c3)"/>
+</svg>

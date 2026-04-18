@@ -3,8 +3,8 @@ const progressBar = document.getElementById("scroll-progress-bar");
 const menuToggle = document.querySelector(".menu-toggle");
 const siteNav = document.getElementById("site-nav");
 const year = document.getElementById("year");
-const tiltCard = document.querySelector(".tilt-card");
 const copyEmailButton = document.getElementById("copy-email");
+const tiltElements = document.querySelectorAll("[data-tilt]");
 const emailAddress = "afzalmoaaz3@gmail.com";
 
 if (year) {
@@ -21,7 +21,7 @@ if ("IntersectionObserver" in window) {
         }
       });
     },
-    { threshold: 0.18 }
+    { threshold: 0.16 }
   );
 
   revealElements.forEach((element) => observer.observe(element));
@@ -40,6 +40,7 @@ const updateScrollProgress = () => {
 
 updateScrollProgress();
 window.addEventListener("scroll", updateScrollProgress, { passive: true });
+window.addEventListener("resize", updateScrollProgress);
 
 if (menuToggle && siteNav) {
   menuToggle.addEventListener("click", () => {
@@ -55,25 +56,25 @@ if (menuToggle && siteNav) {
   });
 }
 
-if (tiltCard) {
-  const resetTilt = () => {
-    tiltCard.style.transform = "perspective(1200px) rotateX(0deg) rotateY(0deg)";
-  };
+const resetTilt = (element) => {
+  element.style.transform = "perspective(1200px) rotateX(0deg) rotateY(0deg)";
+};
 
-  tiltCard.addEventListener("pointermove", (event) => {
-    const bounds = tiltCard.getBoundingClientRect();
+tiltElements.forEach((element) => {
+  element.addEventListener("pointermove", (event) => {
+    const bounds = element.getBoundingClientRect();
     const x = event.clientX - bounds.left;
     const y = event.clientY - bounds.top;
     const rotateY = ((x / bounds.width) - 0.5) * 8;
     const rotateX = ((y / bounds.height) - 0.5) * -8;
 
-    tiltCard.style.transform =
+    element.style.transform =
       `perspective(1200px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
   });
 
-  tiltCard.addEventListener("pointerleave", resetTilt);
-  tiltCard.addEventListener("pointercancel", resetTilt);
-}
+  element.addEventListener("pointerleave", () => resetTilt(element));
+  element.addEventListener("pointercancel", () => resetTilt(element));
+});
 
 if (copyEmailButton) {
   copyEmailButton.addEventListener("click", async () => {
